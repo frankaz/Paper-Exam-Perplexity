@@ -1,0 +1,68 @@
+# ============================================================
+# Exam Perplexity Config
+# ============================================================
+# Choose ONE backend. Options are:
+#   huggingface    — direct in-process inference, fully offline
+#   local_server   — Ollama / LM Studio / MLX-LM / llamafile (local REST server)
+#   anthropic      — Anthropic cloud API (requires ANTHROPIC_API_KEY in .env)
+#   azure          — Microsoft Azure cloud API (requires AZURE_API_KEY in .env)
+#   gemini         — Google AI Studio & Gemini cloud API (requires GEMINI_API_KEY in .env)
+#   openai         — OpenAI cloud API (requires OPENAI_API_KEY in .env)
+# ============================================================
+
+backend: huggingface
+
+# --------------------------------------------
+# --- HuggingFace (backend: huggingface) ---
+huggingface:
+  model: gpt2           # alternatives: gpt2-medium
+
+# --------------------------------------------
+# --- Local Server (backend: local_server) ---
+# Point this at whatever local inference server running.
+# All of these expose an OpenAI-compatible /v1 endpoint:
+#   Ollama default:    http://localhost:11434/v1
+#   LM Studio default: http://localhost:1234/v1
+#   MLX-LM default:    http://localhost:8080/v1
+#   llamafile default: http://localhost:8080/v1
+local_server:
+  endpoint: http://localhost:11434/v1
+  model: llama3
+  api_key: dummy_key       # many local servers require a non-empty dummy key
+
+# --- Anthropic (backend: anthropic) ---
+# Set ANTHROPIC_API_KEY in your .env file
+anthropic:
+  model: claude-sonnet-4
+
+# --- Microsoft Azure (backend: azure) ---
+# Set AZURE_API_KEY in your .env file
+azure:
+  model: phi-4    # alternatives: phi-4-mini
+
+# --- Google AI Studio & Gemini (backend: gemini) ---
+# Set GEMINI_API_KEY in your .env file
+gemini:
+  model: gemini-2.5-flash    # alternatives: gemini-2.5-pro
+
+# --- OpenAI (backend: openai) ---
+# Set OPENAI_API_KEY in your .env file
+openai:
+  model: gpt-5-mini    # alternatives: gpt-5, gpt-4o, gpt-4o-mini
+
+
+# ============================================================
+# Ingestion settings
+# ============================================================
+ingest:
+  data_dir: ./data           # folder to watch for course materials (gitignored)
+  chroma_dir: ./chroma_db    # where the vector store is written (gitignored)
+  supported_extensions:
+    - .pdf
+    - .txt
+    - .md
+    - .docx
+    - .vtt                   # video transcript
+    - .srt                   # subtitle transcript
+
+

@@ -1,0 +1,7 @@
+# Environment variables
+.env
+
+# Root-level data directory
+/chroma_db/
+/data/*
+!/data/.gitkeep

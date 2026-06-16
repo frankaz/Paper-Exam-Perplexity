@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "DRAFT"
+type: software
+title: "Exam Perplexity: A Framework for Measuring Examiner Idiosyncratic Bias"
+abstract: >
+  A perplexity-based tool for measuring exam questions
+authors:
+  - family-names: "Diaz"
+    given-names: "Frank"
+    orcid: "https://orcid.org/0009-0001-0899-1326"
+  - family-names: ""
+    given-names: ""
+    orcid: "https://orcid.org/#"
+repository-code: "https://github.com/frankaz/exam-perplexity"
+license: MIT
+version: "0.1.0"
+date-released: "2026-05-28"
+keywords:
+  - perplexity
+  - natural language processing
+  - exam fairness
