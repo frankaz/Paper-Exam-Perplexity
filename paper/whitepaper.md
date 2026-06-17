@@ -76,8 +76,9 @@ Future directions:
 
 ## References
 
-- Messick, S. (1989). Validity. In R. L. Linn (Ed.), *Educational Measurement* (3rd ed.).
-- Cummins, J. (2000). *Language, Power, and Pedagogy*. Multilingual Matters.
+- Avenia-Tapper, B., & Llosa, L. (2015). *[Construct Relevant or Irrelevant?](https://doi.org/10.1080/10627197.2015.1028622)*. Educational Assessment, 20, 95–111.
+- Messick, S. (1990). *[Validity of Test Interpretation and Use](https://doi.org/10.1002/j.2333-8504.1990.tb01343.x)*. Educational Testing Service Research Report Series, 1990, i–103.
+- Cummins, J. (2000). *[Language, Power, and Pedagogy: Bilingual Children in the Crossfire](https://doi.org/10.21832/9781853596773)*. Multilingual Matters.
 
 ---
 

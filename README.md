@@ -18,7 +18,7 @@
 
 ```bash
 git clone https://github.com/frankaz/Paper-Exam-Perplexity.git
-cd exam-perplexity
+cd Paper-Exam-Perplexity
 pip install -r requirements.txt
 cp env.example .env  # add API keys if using cloud backends
 ```
