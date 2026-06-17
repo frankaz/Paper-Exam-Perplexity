@@ -17,7 +17,7 @@
 ## Quickstart
 
 ```bash
-git clone https://github.com/frankaz/paper-exam-perplexity.git
+git clone https://github.com/frankaz/Paper-Exam-Perplexity.git
 cd exam-perplexity
 pip install -r requirements.txt
 cp env.example .env  # add API keys if using cloud backends
@@ -78,9 +78,42 @@ local_server:
 
 ## Privacy Design
 
+- `.env` is gitignored - API keys are never committed
+- `/data/` is gitignored - you cannot accidentally commit course materials
 - All ingested materials stay on your disk in `chroma_db/` (gitignored)
-- `/data/` is gitignored — you cannot accidentally commit course materials
-- `.env` is gitignored — API keys are never committed
+
+
+---
+
+## Report Analysis
+
+Scoring and metrics generated from the report.
+
+```text
+-------------------------------------
+EXAM QUESTION ANALYSIS
+-------------------------------------
+Question: "What is earths equatorial circumference in mm?"
+
+BASELINE PERPLEXITY:
+  General Perplexity (no context):     25.6
+  Lexical Rarity Score:                0.31  (31% rare)
+  Syntactic Complexity Index:          4.2   (moderate-high)
+
+COURSE ALIGNMENT:  (requires ./data folder)
+  Course-Context Perplexity:           32.2
+  Idiosyncratic Gap (delta):           99.9  ⚠ HIGH
+  Vocabulary Coverage Gap:             3 words not in materials
+
+BIAS FLAGS
+  Assumed Knowledge Phrases:           "equatorial circumference"
+  ESL Disadvantage Signal:             moderate
+
+ANSWER OPTIONS:  (if provided)
+  Perplexity across answers:    A:low  B:low  C:HIGH  D:low
+  Option C is ...
+-------------------------------------
+```
 
 ---
 

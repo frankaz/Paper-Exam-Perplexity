@@ -1,15 +1,15 @@
 # Examiner-Idiosyncratic Bias in Academic Assessments: A Perplexity-Based Measurement Framework
 
-**Draft version:**  2026-05-25
+**Draft version:** 2026-05-25  
 **Authors:** [Author Name(s)]  
-**Repository:** https://github.com/frankaz/paper-exam-perplexity  
+**Repository:** https://github.com/frankaz/Paper-Exam-Perplexity  
 **arXiv:** [pending]
 
 ---
 
 ## Abstract
 
-> 1
+> Independent of subject mastery, examiner-idiosyncratic bias may unknowingly disadvantage students who don't share the exam author's cognitive framing or who are non-native English speakers.
 
 2
 
