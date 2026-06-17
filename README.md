@@ -1,6 +1,6 @@
 # Exam Perplexity
 
-**A framework for detecting if exams questions disadvantage students who don't share the examiner's cognitive framing**
+**A framework for detecting if exams questions harm students who don't share the examiner's cognitive framing**
 
 ---
 

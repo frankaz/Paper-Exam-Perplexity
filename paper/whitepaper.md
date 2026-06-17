@@ -9,7 +9,7 @@
 
 ## Abstract
 
-> Independent of subject mastery, examiner-idiosyncratic bias may unknowingly disadvantage students who don't share the exam author's cognitive framing or who are non-native English speakers.
+> Independent of subject mastery, examiner-idiosyncratic bias may unknowingly harm students who don't share the exam author's cognitive framing or who are non-native English speakers.
 
 2
 
@@ -77,9 +77,11 @@ Future directions:
 ## References
 
 - Avenia-Tapper, B., & Llosa, L. (2015). *[Construct Relevant or Irrelevant?](https://doi.org/10.1080/10627197.2015.1028622)*. Educational Assessment, 20, 95–111.
+- Haladyna & Downing (2004) *[Construct-Irrelevant Variance in High-Stakes Testing](https://doi.org/10.1111/j.1745-3992.2004.tb00149.x)*
 - Messick, S. (1990). *[Validity of Test Interpretation and Use](https://doi.org/10.1002/j.2333-8504.1990.tb01343.x)*. Educational Testing Service Research Report Series, 1990, i–103.
 - Cummins, J. (2000). *[Language, Power, and Pedagogy: Bilingual Children in the Crossfire](https://doi.org/10.21832/9781853596773)*. Multilingual Matters.
 
+- Readability Formulas, Systems and LLMs are Poor Predictors of Reading Ease https://arxiv.org/pdf/2502.11150
 ---
 
 ## Appendix A — 
